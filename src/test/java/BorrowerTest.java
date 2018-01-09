@@ -18,12 +18,12 @@ public class BorrowerTest {
     public void before(){
         library = new Library("Fountainbridge Library", 5);
         borrower = new Borrower("Mark Blanford");
-        book1 = new Book("The Fellowship Of The Ring");
-        book2 = new Book("The Knife Of Never Letting Go");
-        book3 = new Book("Northern Lights");
-        book4 = new Book("The Two Towers");
-        book5 = new Book("The Ask and The Answer");
-        book6 = new Book("The Subtle Knife");
+        book1 = new Book("The Fellowship Of The Ring", "Fantasy");
+        book2 = new Book("The Knife Of Never Letting Go", "Dystopian Fiction");
+        book3 = new Book("Northern Lights", "Young Adult");
+        book4 = new Book("The Two Towers", "Fantasy");
+        book5 = new Book("The Ask and The Answer", "Dystopian Fiction");
+        book6 = new Book("The Subtle Knife", "Young Adult");
     }
 
     @Test

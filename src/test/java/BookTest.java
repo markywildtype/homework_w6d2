@@ -9,11 +9,16 @@ public class BookTest {
 
     @Before
     public void before(){
-        book = new Book("The Gunslinger");
+        book = new Book("The Gunslinger", "Fantasy");
     }
 
     @Test
     public void hasTitle(){
         assertEquals("The Gunslinger", book.getTitle());
+    }
+
+    @Test
+    public void hasGenre(){
+        assertEquals("Fantasy", book.getGenre());
     }
 }
