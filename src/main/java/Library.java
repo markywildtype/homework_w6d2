@@ -57,10 +57,3 @@ public class Library {
 }
 
 
-
-//            Book book = collection.get(i);
-//            genreCount.put(book.getGenre(), ));
-//        }
-//        return genreCount;
-//    }
-//}
